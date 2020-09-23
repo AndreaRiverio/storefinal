@@ -1,0 +1,137 @@
+{
+  "store.home": {
+    "blocks": [
+       "list-context.image-list#demo",
+       "category-menu",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      //"info-card#home",
+      "rich-text#question",
+      "rich-text#link",
+      "newsletter"
+    ]
+  },
+
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": []
+    }
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": false
+      },
+      "height": 720,
+      "images": [
+        {
+          "image": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997671_960_720.png",
+          "mobileImage": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997671_960_720.png"
+        },
+        {
+          "image": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997670_960_720.png",
+          "mobileImage": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997670_960_720.png"
+        },
+        {
+          "image": "https://cdn.pixabay.com/photo/2016/08/17/22/22/pow-1601674_960_720.png",
+          "mobileImage": "https://cdn.pixabay.com/photo/2016/08/17/22/22/pow-1601674_960_720.png"
+        },
+        {
+          "image": "https://hiringcoders13.vteximg.com.br/arquivos/bannerVigarista.jpg",
+          "mobileImage": "https://hiringcoders13.vteximg.com.br/arquivos/bannerVigarista.jpg"
+        },
+        {
+          "image": "https://hiringcoders13.vteximg.com.br/arquivos/bannerMaiorRelancamento.png",
+          "mobileImage": "https://hiringcoders13.vteximg.com.br/arquivos/bannerMaiorRelancamento.png"
+        }
+
+
+
+        
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**A Sua loja de camisetas top!**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.codesquad.com.br",
+      "blockClass": "link"
+    }
+  }
+}
