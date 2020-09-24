@@ -1,8 +1,8 @@
 {
   "store.home": {
     "blocks": [
-       "list-context.image-list#demo",
-       "category-menu",
+      "list-context.image-list#demo",
+      "category-menu",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
@@ -18,8 +18,8 @@
 
   "category-menu": {
     "props": {
-      "showAllDepartments": true,
-      "showSubcategories": true,
+      "showAllDepartments": false,
+      "showSubcategories": false,
       "menuDisposition": "center",
       "departments": []
     }
@@ -36,20 +36,8 @@
         "timeout": 3000,
         "stopOnHover": false
       },
-      "height": 720,
+      "height": 300,
       "images": [
-        {
-          "image": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997671_960_720.png",
-          "mobileImage": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997671_960_720.png"
-        },
-        {
-          "image": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997670_960_720.png",
-          "mobileImage": "https://cdn.pixabay.com/photo/2020/04/03/07/09/comic-speech-bubbles-4997670_960_720.png"
-        },
-        {
-          "image": "https://cdn.pixabay.com/photo/2016/08/17/22/22/pow-1601674_960_720.png",
-          "mobileImage": "https://cdn.pixabay.com/photo/2016/08/17/22/22/pow-1601674_960_720.png"
-        },
         {
           "image": "https://hiringcoders13.vteximg.com.br/arquivos/bannerVigarista.jpg",
           "mobileImage": "https://hiringcoders13.vteximg.com.br/arquivos/bannerVigarista.jpg"
@@ -58,10 +46,6 @@
           "image": "https://hiringcoders13.vteximg.com.br/arquivos/bannerMaiorRelancamento.png",
           "mobileImage": "https://hiringcoders13.vteximg.com.br/arquivos/bannerMaiorRelancamento.png"
         }
-
-
-
-        
       ]
     }
   },
