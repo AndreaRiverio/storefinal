@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      "category-menu",
+      //"category-menu",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
@@ -12,14 +12,14 @@
     ]
   },
 
-  "category-menu": {
+ /* "category-menu": {
     "props": {
       "showAllDepartments": false,
       "showSubcategories": false,
       "menuDisposition": "center",
       "departments": []
     }
-  },
+  },*/
 
   "shelf#home": {
     "blocks": ["product-summary.shelf"]
@@ -32,7 +32,7 @@
         "timeout": 3000,
         "stopOnHover": false
       },
-      "height": 300,
+      "height": 800,
       "images": [
         {
           "image": "https://hiringcoders13.vteximg.com.br/arquivos/bannerVigarista.jpg",

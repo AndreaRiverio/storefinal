@@ -137,5 +137,12 @@
         "Pinterest": true
       }
     }
+  },
+  "shelf.relatedProducts":{
+    "blocks":[ "product-summary.shelf"],
+    "props":{
+      "titleText":"Produtos Relacionados",
+      "showTitle":true
+    }
   }
 }

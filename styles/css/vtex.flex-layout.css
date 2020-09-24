@@ -18,7 +18,8 @@
 
 .flexRowContent--menu-link {
   background-color: #03044e;
-  color: #fff;
+  color: #03044e;
+  display: none;
 }
 
 .flexRowContent--main-header {
