@@ -1,8 +1,8 @@
 # CodeSquad Store Theme
 
-Este é o nosso modelo de loja que servirá de base para usar as funcionalidades do nosso chatbot. 
+Este é o nosso modelo de loja que servirá de base para usar as funcionalidades propostas do nosso chatbot. 
 
-## Screenshot
+## :camera: Screenshot
 ![loja](https://user-images.githubusercontent.com/17733053/94215585-7a23f780-feb3-11ea-8891-f40d9db7e785.png)
 
 
